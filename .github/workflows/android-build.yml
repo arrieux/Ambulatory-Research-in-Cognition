@@ -2,7 +2,9 @@ name: Build ARC Debug APK
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - master         
+  workflow_dispatch:     
 
 jobs:
   build:
